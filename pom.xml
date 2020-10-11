@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>SeleniumTestAutomation</artifactId>
+    <artifactId>SeleniumJavaTests</artifactId>
     <version>1.0-SNAPSHOT</version>
 <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
