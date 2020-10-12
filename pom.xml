@@ -33,7 +33,7 @@
                    <archive>
                        <manifest>
                            <!-- Jar file entry point -->
-                           <mainClass>com.seleniummaster.datatypes.ConsoleInputDemo</mainClass>
+                           <mainClass>com.unitedcoder.datatypes.ConsoleInputDemo</mainClass>
                        </manifest>
                    </archive>
                    <descriptorRefs>
