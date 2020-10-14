@@ -48,7 +48,7 @@
       <recent name="com.seleniummaster.conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxNumber">
+  <component name="RunManager" selected="Application.GoogleSearch">
     <configuration name="ATMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unitedcoder.conditions.ATMDemo" />
       <module name="SeleniumJavaTests" />
@@ -68,6 +68,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.unitedcoder.datatypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.GoogleSearch" />
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,33 +114,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.javabasics.Test" />
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unitedcoder.javabasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ScannerDemo" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.ATMDemo" />
       <item itemvalue="Application.ConsoleInputDemo" />
       <item itemvalue="Application.MaxNumber" />
+      <item itemvalue="Application.GoogleSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleSearch" />
         <item itemvalue="Application.MaxNumber" />
         <item itemvalue="Application.ATMDemo" />
         <item itemvalue="Application.ScannerDemo" />
         <item itemvalue="Application.ConsoleInputDemo" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -149,12 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1602427570633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updates">
+      <created>1602514043519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602514043519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602178436683">
@@ -165,26 +173,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602513940292">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602514041625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602513940292" />
-    <state width="1237" height="207" key="GridCell.Tab.0.bottom" timestamp="1602426759166">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602514041625" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602668842212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602426759166" />
-    <state width="1237" height="207" key="GridCell.Tab.0.center" timestamp="1602426759165">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602668842212" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1602668842205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602426759165" />
-    <state width="1237" height="207" key="GridCell.Tab.0.left" timestamp="1602426759165">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602668842205" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1602668842205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602426759165" />
-    <state width="1237" height="207" key="GridCell.Tab.0.right" timestamp="1602426759166">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602668842205" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1602668842212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602426759166" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602668842212" />
     <state width="1237" height="297" key="GridCell.Tab.1.bottom" timestamp="1602012437972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -205,10 +213,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602427574455">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602514055440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602427574455" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602514055440" />
     <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601567358832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
