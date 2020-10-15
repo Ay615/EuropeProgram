@@ -22,6 +22,7 @@ public class SwitchCaseDemo {
 //            System.out.println("saturday");
 //        else
 //            System.out.println("Sunday");
+        int d=0;
         switch (dayNumber){
             case 1:
                 System.out.println("monday");

@@ -3,6 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/conditions/SwitchCaseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/conditions/SwitchCaseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/conditions/ATMDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/conditions/ConditionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/conditions/ConditionDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/conditions/ConditionDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/conditions/MaxNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/ArgumentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/ComparisonOperators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/ConsoleInputDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/DataTypeConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/DataTypeConversion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/DataTypeDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/DataTypeDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/IncrementAndDecrement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/InstanceOfDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/MathDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/Operators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/ReferenceValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/ScannerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/ScannerDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/StringConcatenation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/StringDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/StringDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/StringDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/StringReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/datatypes/TernaryDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/javabasics/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/javabasics/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniummaster/javabasics/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +58,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1i3LA3B5UNw0UVyxQuNnmAazHDW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -156,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602514043519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updates">
+      <created>1602668852976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602668852976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,26 +213,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602514041625">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602746643901">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602514041625" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602668842212">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602746643901" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602668900263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602668842212" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1602668842205">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1602668900263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602668842205" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1602668842205">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1602668900263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602668842205" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1602668842212">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1602668900263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602668842212" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
     <state width="1237" height="297" key="GridCell.Tab.1.bottom" timestamp="1602012437972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -213,10 +253,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602514055440">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602668855011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602514055440" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602668855011" />
     <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601567358832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
