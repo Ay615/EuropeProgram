@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,13 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602746706395</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework1">
+      <created>1602778892638</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602778892638</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="homework1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602178436683">
@@ -188,10 +198,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602746705538">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602778891629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602746705538" />
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602778891629" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602668900263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -228,10 +238,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602746709720">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602778894895">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602746709720" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602778894895" />
     <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601567358832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
