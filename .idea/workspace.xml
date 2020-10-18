@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/ATMLoopDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/DoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/ForLoop1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/WhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/WhileLoopDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/FlightSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/GoogleSearch3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/collectioninterviewpoint/ArraysDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/collectioninterviewpoint/ArraysDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/javabasics/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +54,13 @@
       <recent name="com.seleniummaster.conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoogleSearch">
-    <configuration name="ATMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.conditions.ATMDemo" />
+  <component name="RunManager" selected="Application.SortArray">
+    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.collectioninterviewpoint.ArraysDemo" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.conditions.*" />
+          <option name="PATTERN" value="com.unitedcoder.collectioninterviewpoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsoleInputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.datatypes.ConsoleInputDemo" />
+    <configuration name="ArraysDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.collectioninterviewpoint.ArraysDemo1" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.datatypes.*" />
+          <option name="PATTERN" value="com.unitedcoder.collectioninterviewpoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.datatypes.ScannerDemo" />
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.SortArray" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.datatypes.*" />
+          <option name="PATTERN" value="com.unitedcoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ScannerDemo" />
-      <item itemvalue="Application.ATMDemo" />
-      <item itemvalue="Application.ConsoleInputDemo" />
       <item itemvalue="Application.MaxNumber" />
       <item itemvalue="Application.GoogleSearch" />
+      <item itemvalue="Application.ArraysDemo" />
+      <item itemvalue="Application.ArraysDemo1" />
+      <item itemvalue="Application.SortArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortArray" />
+        <item itemvalue="Application.ArraysDemo1" />
+        <item itemvalue="Application.ArraysDemo" />
         <item itemvalue="Application.GoogleSearch" />
         <item itemvalue="Application.MaxNumber" />
-        <item itemvalue="Application.ATMDemo" />
-        <item itemvalue="Application.ScannerDemo" />
-        <item itemvalue="Application.ConsoleInputDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602930228448</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="loop">
+      <created>1602953880559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602953880560</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +233,8 @@
     <MESSAGE value="Updates" />
     <MESSAGE value="homework1" />
     <MESSAGE value="Tax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tax" />
+    <MESSAGE value="loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="loop" />
   </component>
   <component name="WindowStateProjectService">
     <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602178436683">
@@ -242,26 +245,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1602930227740">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1603049844107">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602930227740" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602668900263">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603049844107" />
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1603049800340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1602668900263">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603049800340" />
+    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1603049800339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1602668900263">
+    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603049800339" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1603049800339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1602668900263">
+    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603049800339" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1603049800339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602668900263" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603049800339" />
     <state width="1237" height="297" key="GridCell.Tab.1.bottom" timestamp="1602012437972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -282,10 +285,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602930229907">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1602953888258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602930229907" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602953888258" />
     <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601567358832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
