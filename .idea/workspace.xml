@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/ArrayListDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/ArrayListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/ArrayListDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/ArraySortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/ArraysObjectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/CoprTwoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/MaxElementArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/RetainArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/SplitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dadastructure/TwoDimensionArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/week7day3/PrimeNumber1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/week7day3/PrimeNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/week7day3/PrimeNumber3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/AmazonSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603393515450</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="collections">
+      <created>1603556345225</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603556345225</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,7 +266,8 @@
     <MESSAGE value="homework1" />
     <MESSAGE value="Tax" />
     <MESSAGE value="loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop" />
+    <MESSAGE value="collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="collections" />
   </component>
   <component name="WindowStateProjectService">
     <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602178436683">
@@ -285,10 +278,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1603393514447">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1603556343878">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603393514447" />
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603556343878" />
     <state width="1237" height="131" key="GridCell.Tab.0.bottom" timestamp="1603120449574">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -325,10 +318,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1603393517326">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1603556347793">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603393517326" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603556347793" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
