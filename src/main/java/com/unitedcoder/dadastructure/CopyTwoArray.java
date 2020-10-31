@@ -2,7 +2,7 @@ package com.unitedcoder.dadastructure;
 
 import java.util.Arrays;
 
-public class CoprTwoArray {
+public class CopyTwoArray {
     public static void main(String[] args) {
         int[] a1={10,45,80,60};
         int[] a2= Arrays.copyOf(a1,8);
