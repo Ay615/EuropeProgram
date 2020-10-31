@@ -1,4 +1,4 @@
-package com.unitedcoder.studentshomework;
+package com.unitedcoder.studentshomework.week7day1;
 
 import java.util.Scanner;
 
