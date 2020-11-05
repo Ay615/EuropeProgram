@@ -8,6 +8,31 @@ public class Car {
     private String mileAge;
     private long price;
     private int year;
+    //default constructor
+    public Car() {
+    }
+    //constructor with arguments
+    public Car(String brand, String made, String color, String mileAge, long price, int year) {
+        this.brand = brand;
+        this.made = made;
+        this.color = color;
+        this.mileAge = mileAge;
+        this.price = price;
+        this.year = year;
+    }
+    //special method
+    public Car(String brand, String made, String color, String mileAge){
+        this.brand = brand;
+        this.made = made;
+        this.color = color;
+        this.mileAge = mileAge;
+    }
+
+    public Car(String brand, String color) {
+        this.brand = brand;
+        this.color = color;
+    }
+
     //define getter and setter method
     public String getBrand() {
         return brand;
@@ -55,6 +80,19 @@ public class Car {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+
+    public String toString() {
+//        return "Car{" +
+//                "brand='" + brand + '\'' +
+//                ", made='" + made + '\'' +
+//                ", color='" + color + '\'' +
+//                ", mileAge='" + mileAge + '\'' +
+//                ", price=" + price +
+//                ", year=" + year +
+//                '}';
+        return brand+", "+made+", "+color+", "+mileAge+", "+price+", "+year;
     }
 }
 
