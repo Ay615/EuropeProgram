@@ -24,7 +24,7 @@ public class CubeCartAddProduct {
         loginButton.click();
         WebElement dashboard=driver.findElement(By.xpath("//div[@id=\"dashboard\"]/h3"));
         String word=dashboard.getText();
-        if(driver.getPageSource().equalsIgnoreCase(word))
+        if(driver.getPageSource().contains(word))
             System.out.println("Login successfully");
         else
             System.out.println("Login failed");
@@ -39,7 +39,7 @@ public class CubeCartAddProduct {
         driver.findElement(By.id("product_code")).sendKeys(content.getProductCode());
         driver.findElement(By.xpath("//input[@value='Save']")).click();
         String successfulMessage=driver.findElement(By.xpath("//div[@id=\"gui_message\"]/div[2]")).getText();
-        if(driver.getPageSource().equalsIgnoreCase(successfulMessage))
+        if(driver.getPageSource().contains(successfulMessage))
             System.out.println("Product added successfully , test pass");
         else
             System.out.println("Product not added , test failed");
