@@ -43,6 +43,8 @@ public class CubeCartAddProduct {
             System.out.println("Product added successfully , test pass");
         else
             System.out.println("Product not added , test failed");
+        driver.close();
+        driver.quit();
 
 
     }
