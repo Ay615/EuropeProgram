@@ -14,8 +14,8 @@ public class CubeCartAddProduct {
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://cubecart.unitedcoderschool.com/ecommerce/admin_w4vqap.php");
-        LoginUser user=new LoginUser("testautomation","automation123!");
+        driver.get("");
+        LoginUser user=new LoginUser("","");
         WebElement userNameField=driver.findElement(By.id("username"));
         userNameField.sendKeys(user.getUserName());
         WebElement passwordField=driver.findElement(By.id("password"));
