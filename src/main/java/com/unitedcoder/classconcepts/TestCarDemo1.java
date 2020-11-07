@@ -15,7 +15,8 @@ public class TestCarDemo1 {
         Car c3=new Car("Honda","Japan","Red","550000");
         cars[2]=c3;
         for(Car car:cars){
-            System.out.print(car.toString());
+            //System.out.print(car.toString());
+            System.out.println(car.carInfo());
             System.out.println();
 
 //            System.out.print(car.getBrand()+" "+car.getColor()+" "+car.getYear()+

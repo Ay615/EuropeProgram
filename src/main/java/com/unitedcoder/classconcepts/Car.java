@@ -83,7 +83,7 @@ public class Car {
     }
 
 
-    public String toString() {
+    //public String toString() {
 //        return "Car{" +
 //                "brand='" + brand + '\'' +
 //                ", made='" + made + '\'' +
@@ -92,6 +92,10 @@ public class Car {
 //                ", price=" + price +
 //                ", year=" + year +
 //                '}';
+       // return brand+", "+made+", "+color+", "+mileAge+", "+price+", "+year;
+    //}
+
+    public String carInfo(){
         return brand+", "+made+", "+color+", "+mileAge+", "+price+", "+year;
     }
 }
