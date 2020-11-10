@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/FunctionLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/MethodOverLoadingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/BankAccountStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/EnumType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dropdownlist/DropDownTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dropdownlist/SelectClassDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/dropdownlist/SelectClassDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/week9/AddNewsLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/week9/NewsLetterContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/TestCarDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/TestCarDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
       <recent name="com.seleniummaster.conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoogleSearch2">
+  <component name="RunManager" selected="Application.NewsLetterContent">
     <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unitedcoder.collectioninterviewpoint.ArraysDemo" />
       <module name="SeleniumJavaTests" />
@@ -84,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.GoogleSearch" />
+    <configuration name="GoogleSearch2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.GoogleSearch2" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearch2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.GoogleSearch2" />
+    <configuration name="NewsLetterContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.studentshomework.week9.NewsLetterContent" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
+          <option name="PATTERN" value="com.unitedcoder.studentshomework.week9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GoogleSearch" />
       <item itemvalue="Application.ArraysDemo" />
       <item itemvalue="Application.ArraysDemo1" />
       <item itemvalue="Application.SortArray" />
       <item itemvalue="Application.GoogleSearch2" />
+      <item itemvalue="Application.NewsLetterContent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewsLetterContent" />
         <item itemvalue="Application.GoogleSearch2" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.ArraysDemo1" />
         <item itemvalue="Application.ArraysDemo" />
-        <item itemvalue="Application.GoogleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604746551480</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="class">
+      <created>1604760253546</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604760253546</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -353,26 +363,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1604746550461">
+    <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605037407782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604746550461" />
-    <state width="1237" height="131" key="GridCell.Tab.0.bottom" timestamp="1603120449574">
+    <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1604760252092">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603120449574" />
-    <state width="1237" height="131" key="GridCell.Tab.0.center" timestamp="1603120449573">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1604760252092" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1605000678428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603120449573" />
-    <state width="1237" height="131" key="GridCell.Tab.0.left" timestamp="1603120449573">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605000678428" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1605000678428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603120449573" />
-    <state width="1237" height="131" key="GridCell.Tab.0.right" timestamp="1603120449574">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605000678428" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1605000678428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603120449574" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605000678428" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1605000678428">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605000678428" />
     <state width="1237" height="297" key="GridCell.Tab.1.bottom" timestamp="1602012437972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -393,10 +407,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1604746553600">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1604760256079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604746553600" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604760256079" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
