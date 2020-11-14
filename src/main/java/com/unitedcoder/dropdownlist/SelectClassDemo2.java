@@ -31,11 +31,11 @@ public class SelectClassDemo2 {
         //10
         for(int i=0;i<option.size();i++){
             System.out.println(option.get(i).getText());
-            String monthValue=option.get(i).getText();
-            if(monthValue.equalsIgnoreCase("15")){
-                option.get(i).click();
-                break;
-            }
+            //String monthValue=option.get(i).getText();
+//            if(monthValue.equalsIgnoreCase("15")){
+//                option.get(i).click();
+//                break;
+//            }
         }
     }
 }
