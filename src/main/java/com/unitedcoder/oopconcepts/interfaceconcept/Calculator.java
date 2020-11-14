@@ -37,6 +37,7 @@ public  class Calculator implements ISimpleCalculator,IScientificCalculator {
         return r;
     }
 
+
     public double calculateSquareRoot(long l1) {
         double s=Math.sqrt(l1);
         return s;
