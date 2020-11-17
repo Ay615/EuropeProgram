@@ -9,9 +9,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class AmazonSearch {
     public static void main(String[] args) {
+
         System.setProperty("webdriver.chrome.driver", "c:\\webdriver\\chromedriver.exe");
         //define chrome driver object instance
         WebDriver driver = new ChromeDriver();
@@ -19,6 +21,7 @@ public class AmazonSearch {
         driver.manage().window().maximize();
         //open google site
         driver.get("https://www.amazon.com");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //multiple product search iphone ipad sumsung
         //String[] products = {"Iphone", "Ipad", "Sumsung", "Mac"};
         List<String> products=new ArrayList<>();
