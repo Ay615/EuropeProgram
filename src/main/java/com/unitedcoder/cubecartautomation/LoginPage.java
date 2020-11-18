@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class LoginPage extends TestBase {
 
     public void login(LoginUser user){
-        driver.get("http://cubecart.unitedcoderschool.com/ecommerce/admin_w4vqap.php");
+        driver.get("");
         WebElement userNameField=driver.findElement(By.id("username"));
         waitForElementPresent(userNameField,5);
         userNameField.sendKeys(user.getUserName());
