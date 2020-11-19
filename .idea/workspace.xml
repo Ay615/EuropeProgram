@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/deletenewsletter/AddAndDeleteNewsLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/deletenewsletter/FunctionLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/studentshomework/deletenewsletter/NewsLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/exceptionhandling/ExceptionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/exceptionhandling/ExceptionHandling2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/exceptionhandling/ExceptionHandling4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/exceptionhandling/Exceptiondemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/cubecartautomation/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/cubecartautomation/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/cubecartautomation/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/cubecartautomation/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +61,14 @@
       <recent name="com.seleniummaster.conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestRunner">
-    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.oopconcepts.abstractconcept.BankTest" />
+  <component name="RunManager" selected="Application.ExceptionHandling4">
+    <configuration name="ExceptionDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.exceptionhandling.ExceptionDemo3" />
       <module name="SeleniumJavaTests" />
+      <option name="PROGRAM_PARAMETERS" value="10 0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.oopconcepts.abstractconcept.*" />
+          <option name="PATTERN" value="com.unitedcoder.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Benz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.oopconcepts.inheritancetutorial.Benz" />
+    <configuration name="ExceptionHandling2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.exceptionhandling.ExceptionHandling2" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.oopconcepts.inheritancetutorial.*" />
+          <option name="PATTERN" value="com.unitedcoder.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.oopconcepts.interfaceconcept.TestBank" />
+    <configuration name="ExceptionHandling4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.exceptionhandling.ExceptionHandling4" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.oopconcepts.abstractconcept.*" />
+          <option name="PATTERN" value="com.unitedcoder.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.oopconcepts.interfaceconcept.TestCalculator" />
+    <configuration name="Exceptiondemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.exceptionhandling.Exceptiondemo1" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.oopconcepts.abstractconcept.*" />
+          <option name="PATTERN" value="com.unitedcoder.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.cubecartautomation.TestRunner" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.Test1" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.cubecartautomation.*" />
+          <option name="PATTERN" value="com.unitedcoder.classconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Benz" />
-      <item itemvalue="Application.TestBank" />
-      <item itemvalue="Application.TestCalculator" />
-      <item itemvalue="Application.BankTest" />
-      <item itemvalue="Application.TestRunner" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Exceptiondemo1" />
+      <item itemvalue="Application.ExceptionHandling2" />
+      <item itemvalue="Application.ExceptionDemo3" />
+      <item itemvalue="Application.ExceptionHandling4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestRunner" />
-        <item itemvalue="Application.BankTest" />
-        <item itemvalue="Application.TestCalculator" />
-        <item itemvalue="Application.TestBank" />
-        <item itemvalue="Application.Benz" />
+        <item itemvalue="Application.ExceptionHandling4" />
+        <item itemvalue="Application.ExceptionDemo3" />
+        <item itemvalue="Application.ExceptionHandling2" />
+        <item itemvalue="Application.Exceptiondemo1" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605639839370</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Automation design">
+      <created>1605692654368</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1605692654368</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -399,10 +411,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Automation design" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602178436683">
+    <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605811547921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178436683" />
+    <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605811547921" />
     <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1605692591140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -415,50 +427,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1605639838116">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1605692653488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605639838116" />
-    <state width="1237" height="167" key="GridCell.Tab.0.bottom" timestamp="1605640498573">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605692653488" />
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom" timestamp="1605812697079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605640498573" />
-    <state width="1237" height="167" key="GridCell.Tab.0.center" timestamp="1605640498571">
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605812697079" />
+    <state width="1237" height="148" key="GridCell.Tab.0.center" timestamp="1605812697079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605640498571" />
-    <state width="1237" height="167" key="GridCell.Tab.0.left" timestamp="1605640498571">
+    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605812697079" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left" timestamp="1605812697079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605640498571" />
-    <state width="1237" height="167" key="GridCell.Tab.0.right" timestamp="1605640498572">
+    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605812697079" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right" timestamp="1605812697079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605640498572" />
-    <state width="1237" height="31" key="GridCell.Tab.1.bottom" timestamp="1605364708039">
+    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605812697079" />
+    <state width="1237" height="31" key="GridCell.Tab.1.bottom" timestamp="1605802489815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="31" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605364708039" />
-    <state width="1237" height="31" key="GridCell.Tab.1.center" timestamp="1605364708039">
+    <state width="1237" height="31" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605802489815" />
+    <state width="1237" height="31" key="GridCell.Tab.1.center" timestamp="1605802489815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="31" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605364708039" />
-    <state width="1237" height="31" key="GridCell.Tab.1.left" timestamp="1605364708039">
+    <state width="1237" height="31" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605802489815" />
+    <state width="1237" height="31" key="GridCell.Tab.1.left" timestamp="1605802489814">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="31" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605364708039" />
-    <state width="1237" height="31" key="GridCell.Tab.1.right" timestamp="1605364708039">
+    <state width="1237" height="31" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605802489814" />
+    <state width="1237" height="31" key="GridCell.Tab.1.right" timestamp="1605802489815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="31" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605364708039" />
+    <state width="1237" height="31" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605802489815" />
     <state x="141" y="0" key="SettingsEditor" timestamp="1601563088237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1605639842732">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1605692656302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605639842732" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605692656302" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
