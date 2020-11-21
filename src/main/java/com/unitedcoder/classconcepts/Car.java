@@ -1,6 +1,6 @@
 package com.unitedcoder.classconcepts;
 
-public class Car {
+public class Car implements Comparable<Car> {
     //class level variables  encapsulation
     private String brand;
     private String made;
@@ -31,6 +31,12 @@ public class Car {
     public Car(String brand, String color) {
         this.brand = brand;
         this.color = color;
+    }
+
+    public Car(String brand, String color, long price) {
+        this.brand = brand;
+        this.color = color;
+        this.price = price;
     }
 
     //define getter and setter method
@@ -83,7 +89,7 @@ public class Car {
     }
 
 
-    //public String toString() {
+    public String toString() {
 //        return "Car{" +
 //                "brand='" + brand + '\'' +
 //                ", made='" + made + '\'' +
@@ -92,11 +98,22 @@ public class Car {
 //                ", price=" + price +
 //                ", year=" + year +
 //                '}';
-       // return brand+", "+made+", "+color+", "+mileAge+", "+price+", "+year;
-    //}
+        return brand+", "+made+", "+color+", "+mileAge+", "+price+", "+year;
+    }
 
     public String carInfo(){
         return brand+", "+made+", "+color+", "+mileAge+", "+price+", "+year;
+    }
+
+
+    @Override
+    public int compareTo(Car car) {
+        if(price==car.price){
+            return 0;
+        }else if(price>car.price){
+            return 1;
+        }else
+        return -1;
     }
 }
 
