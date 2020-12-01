@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/ComparableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/GreetingPrinting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/MultiBrowserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/MultiThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/MultipleGoogleSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/NestedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/SingletonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/VariableScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/classconcepts/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/exceptionhandling/ExceptionHandling2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/exceptionhandling/ExceptionHandling2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +55,7 @@
       <recent name="com.seleniummaster.conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparableDemo">
+  <component name="RunManager" selected="Application.FileWriteDemo1">
     <configuration name="ComparableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.ComparableDemo" />
       <module name="SeleniumJavaTests" />
@@ -79,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiBrowserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.MultiBrowserTest" />
+    <configuration name="FileUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileUtility" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.classconcepts.*" />
+          <option name="PATTERN" value="com.unitedcoder.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.MultiThreadDemo" />
+    <configuration name="FileWriteDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo1" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.classconcepts.*" />
+          <option name="PATTERN" value="com.unitedcoder.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.SingletonClass" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.Test" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.classconcepts.*" />
+          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingletonClass" />
-      <item itemvalue="Application.MultiThreadDemo" />
-      <item itemvalue="Application.MultiBrowserTest" />
       <item itemvalue="Application.NestedClass" />
       <item itemvalue="Application.ComparableDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FileUtility" />
+      <item itemvalue="Application.FileWriteDemo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileWriteDemo1" />
+        <item itemvalue="Application.FileUtility" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ComparableDemo" />
         <item itemvalue="Application.NestedClass" />
-        <item itemvalue="Application.MultiBrowserTest" />
-        <item itemvalue="Application.MultiThreadDemo" />
-        <item itemvalue="Application.SingletonClass" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605904572942</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Automation design">
+      <created>1605972557263</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605972557263</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -444,57 +441,57 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1605972514322">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1605972555894">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605972514322" />
-    <state width="1237" height="63" key="GridCell.Tab.0.bottom" timestamp="1605961470846">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605972555894" />
+    <state width="1237" height="36" key="GridCell.Tab.0.bottom" timestamp="1606850375139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605961470846" />
-    <state width="1237" height="63" key="GridCell.Tab.0.center" timestamp="1605961470846">
+    <state width="1237" height="36" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606850375139" />
+    <state width="1237" height="36" key="GridCell.Tab.0.center" timestamp="1606850375139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605961470846" />
-    <state width="1237" height="63" key="GridCell.Tab.0.left" timestamp="1605961470845">
+    <state width="1237" height="36" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606850375139" />
+    <state width="1237" height="36" key="GridCell.Tab.0.left" timestamp="1606850375139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605961470845" />
-    <state width="1237" height="63" key="GridCell.Tab.0.right" timestamp="1605961470846">
+    <state width="1237" height="36" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606850375139" />
+    <state width="1237" height="36" key="GridCell.Tab.0.right" timestamp="1606850375139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="63" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605961470846" />
-    <state width="1237" height="72" key="GridCell.Tab.1.bottom" timestamp="1605946456529">
+    <state width="1237" height="36" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606850375139" />
+    <state width="1237" height="72" key="GridCell.Tab.1.bottom" timestamp="1605972572831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605946456529" />
-    <state width="1237" height="72" key="GridCell.Tab.1.center" timestamp="1605946456529">
+    <state width="1237" height="72" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605972572831" />
+    <state width="1237" height="72" key="GridCell.Tab.1.center" timestamp="1605972572830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605946456529" />
-    <state width="1237" height="72" key="GridCell.Tab.1.left" timestamp="1605946456529">
+    <state width="1237" height="72" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605972572830" />
+    <state width="1237" height="72" key="GridCell.Tab.1.left" timestamp="1605972572830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605946456529" />
-    <state width="1237" height="72" key="GridCell.Tab.1.right" timestamp="1605946456529">
+    <state width="1237" height="72" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605972572830" />
+    <state width="1237" height="72" key="GridCell.Tab.1.right" timestamp="1605972572830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605946456529" />
+    <state width="1237" height="72" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605972572830" />
     <state x="141" y="0" key="SettingsEditor" timestamp="1601563088237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1605904574743">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1605972558772">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605904574743" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605972558772" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1603555427584" />
-    <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601567358832">
+    <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606840083809">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1601567358832" />
+    <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1606840083809" />
   </component>
 </project>
