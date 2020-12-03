@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/CompareFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/DeleteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileReadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/ReadFromURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-Result" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,23 +60,13 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.seleniummaster.conditions" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FileWriteDemo1">
-    <configuration name="ComparableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.ComparableDemo" />
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unitedcoder.classconcepts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileUtility" />
+  <component name="RunManager" selected="Application.ReadFromURL">
+    <configuration name="CompareFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.CompareFile" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriteDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo1" />
+    <configuration name="DeleteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.DeleteFile" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.classconcepts.NestedClass" />
+    <configuration name="FileReadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileReadDemo" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.classconcepts.*" />
+          <option name="PATTERN" value="com.unitedcoder.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.Test" />
+    <configuration name="FileWriteDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo3" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
+          <option name="PATTERN" value="com.unitedcoder.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFromURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.ReadFromURL" />
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unitedcoder.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NestedClass" />
-      <item itemvalue="Application.ComparableDemo" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.FileUtility" />
-      <item itemvalue="Application.FileWriteDemo1" />
+      <item itemvalue="Application.FileWriteDemo3" />
+      <item itemvalue="Application.FileReadDemo" />
+      <item itemvalue="Application.CompareFile" />
+      <item itemvalue="Application.DeleteFile" />
+      <item itemvalue="Application.ReadFromURL" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileWriteDemo1" />
-        <item itemvalue="Application.FileUtility" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ComparableDemo" />
-        <item itemvalue="Application.NestedClass" />
+        <item itemvalue="Application.ReadFromURL" />
+        <item itemvalue="Application.DeleteFile" />
+        <item itemvalue="Application.CompareFile" />
+        <item itemvalue="Application.FileReadDemo" />
+        <item itemvalue="Application.FileWriteDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -448,26 +458,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1606850393152">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1606851104717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606850393152" />
-    <state width="1237" height="36" key="GridCell.Tab.0.bottom" timestamp="1606850571437">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606851104717" />
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom" timestamp="1607021908758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="36" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606850571437" />
-    <state width="1237" height="36" key="GridCell.Tab.0.center" timestamp="1606850571436">
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607021908758" />
+    <state width="1237" height="47" key="GridCell.Tab.0.center" timestamp="1607021908758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="36" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606850571436" />
-    <state width="1237" height="36" key="GridCell.Tab.0.left" timestamp="1606850571436">
+    <state width="1237" height="47" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607021908758" />
+    <state width="1237" height="47" key="GridCell.Tab.0.left" timestamp="1607021908757">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="36" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606850571436" />
-    <state width="1237" height="36" key="GridCell.Tab.0.right" timestamp="1606850571437">
+    <state width="1237" height="47" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607021908757" />
+    <state width="1237" height="47" key="GridCell.Tab.0.right" timestamp="1607021908758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="36" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606850571437" />
+    <state width="1237" height="47" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607021908758" />
     <state width="1237" height="72" key="GridCell.Tab.1.bottom" timestamp="1605972572831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -488,10 +498,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1606850397714">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1606851108087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606850397714" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606851108087" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

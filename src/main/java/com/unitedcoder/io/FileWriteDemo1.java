@@ -10,6 +10,7 @@ public class FileWriteDemo1 {
         fileContant.append("Java Test Automation Demo \n");
         fileContant.append("Test Passed");
         fileUtility.writeToFile("test-Result",
-                "result"+System.currentTimeMillis(),".txt",fileContant.toString());
+                "result"+System.currentTimeMillis(),
+                ".txt",fileContant.toString());
     }
 }
