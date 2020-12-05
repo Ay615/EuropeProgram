@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-qa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/ConfigDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/CubeCartConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/UiUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -432,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607027727538</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="File">
+      <created>1607165020514</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607165020514</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -470,10 +469,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1607027726187">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1607165019264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607027726187" />
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607165019264" />
     <state width="1237" height="81" key="GridCell.Tab.0.bottom" timestamp="1607164231825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -510,10 +509,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1607027729248">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1607165022683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607027729248" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607165022683" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
