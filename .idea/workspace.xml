@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/GoogleSearchScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/csv/AmazonSearchWithCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/csv/CSVFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/csv/CSVFileUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/csv/CSVWriteDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/CubeCartConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/CubeCartConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/UiUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/UiUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/AmazonSearch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/AmazonSearch1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +56,29 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.seleniummaster.conditions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests" />
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.unitedcoder.csv" />
+      <recent name="com.unitedcoder.configutility" />
+      <recent name="com.seleniummaster.conditions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CubeCartConfigTest">
-    <configuration name="ConfigDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.ConfigDemo" />
+  <component name="RunManager" selected="Application.AmazonSearchWithCSV">
+    <configuration name="AmazonSearch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.AmazonSearch1" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.configutility.*" />
+          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CubeCartConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.CubeCartConfigTest" />
+    <configuration name="AmazonSearchWithCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.csv.AmazonSearchWithCSV" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.configutility.*" />
+          <option name="PATTERN" value="com.unitedcoder.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriteDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo1" />
+    <configuration name="CSVFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.csv.CSVFileReader" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.io.*" />
+          <option name="PATTERN" value="com.unitedcoder.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriteDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo2" />
+    <configuration name="CSVWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.csv.CSVWriteDemo" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.io.*" />
+          <option name="PATTERN" value="com.unitedcoder.csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.TestConfig" />
+    <configuration name="GoogleSearchScreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.GoogleSearchScreenShot" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConfigDemo" />
-      <item itemvalue="Application.TestConfig" />
-      <item itemvalue="Application.CubeCartConfigTest" />
-      <item itemvalue="Application.FileWriteDemo1" />
-      <item itemvalue="Application.FileWriteDemo2" />
+      <item itemvalue="Application.GoogleSearchScreenShot" />
+      <item itemvalue="Application.AmazonSearch1" />
+      <item itemvalue="Application.CSVFileReader" />
+      <item itemvalue="Application.CSVWriteDemo" />
+      <item itemvalue="Application.AmazonSearchWithCSV" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CubeCartConfigTest" />
-        <item itemvalue="Application.FileWriteDemo2" />
-        <item itemvalue="Application.FileWriteDemo1" />
-        <item itemvalue="Application.ConfigDemo" />
-        <item itemvalue="Application.TestConfig" />
+        <item itemvalue="Application.AmazonSearchWithCSV" />
+        <item itemvalue="Application.CSVWriteDemo" />
+        <item itemvalue="Application.CSVFileReader" />
+        <item itemvalue="Application.AmazonSearch1" />
+        <item itemvalue="Application.GoogleSearchScreenShot" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607168744253</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="File">
+      <created>1607168819357</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1607168819357</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -483,26 +505,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1607168743497">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1607168818692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607168743497" />
-    <state width="1237" height="81" key="GridCell.Tab.0.bottom" timestamp="1607164231825">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607168818692" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1607177317095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="81" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607164231825" />
-    <state width="1237" height="81" key="GridCell.Tab.0.center" timestamp="1607164231824">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607177317095" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1607177317095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="81" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607164231824" />
-    <state width="1237" height="81" key="GridCell.Tab.0.left" timestamp="1607164231824">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607177317095" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1607177317094">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="81" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607164231824" />
-    <state width="1237" height="81" key="GridCell.Tab.0.right" timestamp="1607164231824">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607177317094" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1607177317095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="81" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607164231824" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607177317095" />
     <state width="1237" height="72" key="GridCell.Tab.1.bottom" timestamp="1605972572831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -519,14 +541,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="72" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605972572830" />
-    <state x="141" y="0" key="SettingsEditor" timestamp="1601563088237">
+    <state x="94" y="0" key="SettingsEditor" timestamp="1607173771625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1607168745442">
+    <state x="94" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607173771625" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1607168820484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607168745442" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607168820484" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

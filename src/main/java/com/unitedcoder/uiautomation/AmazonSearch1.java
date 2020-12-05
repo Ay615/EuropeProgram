@@ -1,5 +1,6 @@
 package com.unitedcoder.uiautomation;
 
+import com.unitedcoder.configutility.UiUtility;
 import org.joda.time.DateTime;
 import org.joda.time.Period;
 import org.joda.time.PeriodType;
@@ -28,9 +29,11 @@ public class AmazonSearch1 {
         products.add("Iphone");
         products.add("Ipad");
         products.add("Mac");
+        UiUtility utility=new UiUtility(driver);
         for (String keyWords : products) {
             WebElement serachBox = driver.findElement(By.id("twotabsearchtextbox"));
             serachBox.sendKeys(keyWords+ Keys.ENTER);
+            utility.takeScreenShot(keyWords+".png");
             driver.navigate().back();
         }
         driver.close();

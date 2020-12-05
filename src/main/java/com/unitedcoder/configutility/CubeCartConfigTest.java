@@ -46,6 +46,7 @@ public class CubeCartConfigTest {
         FileUtility fileUtility=new FileUtility();
         if(logOutIcon.isDisplayed()){
             result.append("Login successfully");
+            utility.takeScreenShot("loginsuccess.png");
         }
         fileUtility.writeToFile("test-Result","cubecart-result",
                 ".txt",result.toString());
@@ -55,6 +56,7 @@ public class CubeCartConfigTest {
         utility.waitForElementPresent(loginButtonAfterLogOut);
         if(loginButtonAfterLogOut.isDisplayed()){
             result.append("Log Out Successfully");
+            utility.takeScreenShot("logousuccess.png");
         }
         File existingFile=new File("test-Result"+File.separator+"cubecart-result.txt");
         try {
@@ -62,7 +64,5 @@ public class CubeCartConfigTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }
