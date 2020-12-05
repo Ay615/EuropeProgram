@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/CompareFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/DeleteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileReadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/ReadFromURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-qa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/ConfigDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/CubeCartConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/configutility/UiUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/io/FileWriteDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-Result" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,12 +61,39 @@
       <recent name="com.seleniummaster.conditions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests" />
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFromURL">
-    <configuration name="CompareFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.CompareFile" />
+  <component name="RunManager" selected="Application.CubeCartConfigTest">
+    <configuration name="ConfigDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.ConfigDemo" />
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unitedcoder.configutility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CubeCartConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.CubeCartConfigTest" />
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unitedcoder.configutility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWriteDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo1" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.DeleteFile" />
+    <configuration name="FileWriteDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo2" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -91,38 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileReadDemo" />
+    <configuration name="TestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.configutility.TestConfig" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileWriteDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.FileWriteDemo3" />
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unitedcoder.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFromURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.io.ReadFromURL" />
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unitedcoder.io.*" />
+          <option name="PATTERN" value="com.unitedcoder.configutility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileWriteDemo3" />
-      <item itemvalue="Application.FileReadDemo" />
-      <item itemvalue="Application.CompareFile" />
-      <item itemvalue="Application.DeleteFile" />
-      <item itemvalue="Application.ReadFromURL" />
+      <item itemvalue="Application.ConfigDemo" />
+      <item itemvalue="Application.TestConfig" />
+      <item itemvalue="Application.CubeCartConfigTest" />
+      <item itemvalue="Application.FileWriteDemo1" />
+      <item itemvalue="Application.FileWriteDemo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadFromURL" />
-        <item itemvalue="Application.DeleteFile" />
-        <item itemvalue="Application.CompareFile" />
-        <item itemvalue="Application.FileReadDemo" />
-        <item itemvalue="Application.FileWriteDemo3" />
+        <item itemvalue="Application.CubeCartConfigTest" />
+        <item itemvalue="Application.FileWriteDemo2" />
+        <item itemvalue="Application.FileWriteDemo1" />
+        <item itemvalue="Application.ConfigDemo" />
+        <item itemvalue="Application.TestConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606850395172</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="File">
+      <created>1607027727538</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607027727538</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -446,6 +454,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605811547921" />
+    <state x="385" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607162895966">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607162895966" />
     <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1605961238011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -458,26 +470,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1606851104717">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1607027726187">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1606851104717" />
-    <state width="1237" height="47" key="GridCell.Tab.0.bottom" timestamp="1607021908758">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607027726187" />
+    <state width="1237" height="81" key="GridCell.Tab.0.bottom" timestamp="1607164231825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="47" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607021908758" />
-    <state width="1237" height="47" key="GridCell.Tab.0.center" timestamp="1607021908758">
+    <state width="1237" height="81" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607164231825" />
+    <state width="1237" height="81" key="GridCell.Tab.0.center" timestamp="1607164231824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="47" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607021908758" />
-    <state width="1237" height="47" key="GridCell.Tab.0.left" timestamp="1607021908757">
+    <state width="1237" height="81" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607164231824" />
+    <state width="1237" height="81" key="GridCell.Tab.0.left" timestamp="1607164231824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="47" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607021908757" />
-    <state width="1237" height="47" key="GridCell.Tab.0.right" timestamp="1607021908758">
+    <state width="1237" height="81" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607164231824" />
+    <state width="1237" height="81" key="GridCell.Tab.0.right" timestamp="1607164231824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="47" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607021908758" />
+    <state width="1237" height="81" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607164231824" />
     <state width="1237" height="72" key="GridCell.Tab.1.bottom" timestamp="1605972572831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -498,10 +510,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601563088237" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1606851108087">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1607027729248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606851108087" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607027729248" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

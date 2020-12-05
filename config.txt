@@ -1,0 +1,8 @@
+
+produrl=http\://cubecart.unitedcoderschool.com/ecommerce/admin_w4vqap.php
+password=automation123\!
+qaurl=http\://cubecart.unitedcoderschool.com/ecommerce
+qa=2
+timeout=10
+username=testautomation
+login
