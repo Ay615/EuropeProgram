@@ -25,6 +25,7 @@ public class CSVFileUtility {
         for(CSVRecord record:records){
           String contents=record.get(headerName);
            values.add(contents);
+            System.out.println(String.format("search word %s",contents));
         }
         return values;
     }

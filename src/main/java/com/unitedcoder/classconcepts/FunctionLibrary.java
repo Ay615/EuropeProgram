@@ -26,6 +26,14 @@ public class FunctionLibrary {
         WebElement loginButton=driver.findElement(By.id("login"));
         loginButton.click();
     }
+    public void logIn(String username,String password){
+        WebElement userNameField=driver.findElement(By.id("username"));
+        userNameField.sendKeys(username);
+        WebElement passwordField=driver.findElement(By.id("password"));
+        passwordField.sendKeys(password);
+        WebElement loginButton=driver.findElement(By.id("login"));
+        loginButton.click();
+    }
     public boolean verifyLogin(){
         WebElement logOutLink=driver.findElement(By.xpath("//div[@id=\"header\"]/span/a[2]"));
         if(logOutLink.isDisplayed()) {
@@ -36,6 +44,15 @@ public class FunctionLibrary {
             System.out.println("Login failed");
             return false;
         }
+    }
+    public void addProduct(String productName,String weight){
+        WebElement productsLink=driver.findElement(By.id("nav_products"));
+        productsLink.click();
+        WebElement addProductLink=driver.findElement(By.xpath("//*[text()='Add Product']"));
+        addProductLink.click();
+        driver.findElement(By.id("name")).sendKeys(productName);
+        driver.findElement(By.name("product_weight")).sendKeys(weight);
+        driver.findElement(By.xpath("//input[@value='Save']")).click();
     }
     public void closeBrowser(){
         driver.close();
