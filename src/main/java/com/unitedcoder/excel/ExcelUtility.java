@@ -1,14 +1,12 @@
 package com.unitedcoder.excel;
 
+import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.xssf.usermodel.*;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,4 +79,50 @@ public class ExcelUtility {
         System.out.println(loginUser.toString());
         return loginUser;
     }
+
+    public void writeToExcelMultipleCells(String fileName,String sheetName,List<String> contents){
+        //define a file to write
+        File excelFile=new File(fileName);
+        //define a work book
+        XSSFWorkbook workbook=new XSSFWorkbook();
+        //add sheet to the work book
+        XSSFSheet sheet=workbook.createSheet(sheetName);
+        //define row(s) in the work sheet
+        int numberOfRows=contents.size();
+        for(int rowNumber=0;rowNumber<numberOfRows;rowNumber++){
+            XSSFRow row=sheet.createRow(rowNumber);
+            String[] rowContent=contents.get(rowNumber).split(",");
+            //define column to the row
+            int totalCell=rowContent.length;
+            for(int cellNumber=0;cellNumber<totalCell;cellNumber++){
+                XSSFCell cell=row.createCell(cellNumber);
+                //add contents to the cell
+                cell.setCellValue(rowContent[cellNumber]);
+                if(rowContent[cellNumber].equalsIgnoreCase("passed")){
+                    XSSFCellStyle style = workbook.createCellStyle();
+                    style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
+                    style.setFillPattern(FillPatternType.DIAMONDS);
+                    cell.setCellStyle(style);
+                }
+            }
+        }
+        FileOutputStream outputStream=null;
+        try {
+            outputStream=new FileOutputStream(excelFile);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
+            workbook.write(outputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            workbook.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }
