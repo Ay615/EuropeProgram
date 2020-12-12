@@ -18,7 +18,7 @@ public class CSVFileUtility {
         }
         Iterable<CSVRecord> records=null;
         try {
-           records= CSVFormat.RFC4180.withHeader(headerName).parse(reader);
+           records= CSVFormat.RFC4180.withFirstRecordAsHeader().withHeader(headerName).parse(reader);
         } catch (IOException e) {
             e.printStackTrace();
         }
