@@ -28,11 +28,5 @@ public class VerifyJsonContent {
         }else{
             System.out.println("Incorrect calculation");
         }
-
-
-
-
-
-
     }
 }
