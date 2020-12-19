@@ -5,4 +5,5 @@ public interface IScientificCalculator {
     double calculatePower(int base,int power);
     double calculateSquareRoot(long l1);
     double calculateAbsoluteValue(int x);
+
 }
