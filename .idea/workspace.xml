@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/lambdaexpression/ConsumerAndSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/CommonFunctionInStreamApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/StreamApiFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Updates">
-      <created>1602746706395</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1602746706395</updated>
     </task>
     <task id="LOCAL-00005" summary="homework1">
       <created>1602778892638</created>
@@ -507,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608375852962</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="File">
+      <created>1608385628215</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1608385628215</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -545,10 +541,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1608375852211">
+    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1608385627436">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608375852211" />
+    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608385627436" />
     <state width="1237" height="218" key="GridCell.Tab.0.bottom" timestamp="1608384237165">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -589,10 +585,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607777010828" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1608375854807">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1608385629665">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608375854807" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608385629665" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

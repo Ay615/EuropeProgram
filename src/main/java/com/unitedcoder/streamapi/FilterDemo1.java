@@ -29,11 +29,5 @@ public class FilterDemo1 {
         withoutNullValue=words.stream().filter(n->n!=null).collect(Collectors.toList());
         System.out.println(withoutNullValue);
 
-
-
-
-
-
-
     }
 }
