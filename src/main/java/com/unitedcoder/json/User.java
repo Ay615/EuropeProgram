@@ -12,6 +12,16 @@ public class User {
     private String usertype;
     @JsonProperty("age")
     private String age;
+    @JsonProperty("active")
+    private boolean active;
+
+    public boolean getActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
 
     public User() {
     }

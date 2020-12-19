@@ -17,6 +17,12 @@
       "password": "automation123!",
       "usertype": "tester",
       "active": true
+    },
+    {
+      "username": "testautomation3",
+      "password": "automation123!",
+      "usertype": "tester",
+      "active": false
     }
   ]
 }
