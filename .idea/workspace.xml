@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/conditions/MaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/conditions/MaxNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/ForLoop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/ForLoop2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00005" summary="homework1">
-      <created>1602778892638</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1602778892638</updated>
     </task>
     <task id="LOCAL-00006" summary="homework1">
       <created>1602784664047</created>
@@ -503,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608385628215</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="File">
+      <created>1608398038398</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1608398038398</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -541,26 +543,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1608385627436">
+    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1608398037582">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608385627436" />
-    <state width="1237" height="218" key="GridCell.Tab.0.bottom" timestamp="1608384237165">
+    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608398037582" />
+    <state width="1237" height="218" key="GridCell.Tab.0.bottom" timestamp="1608398048712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608384237165" />
-    <state width="1237" height="218" key="GridCell.Tab.0.center" timestamp="1608384237164">
+    <state width="1237" height="218" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
+    <state width="1237" height="218" key="GridCell.Tab.0.center" timestamp="1608398048712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608384237164" />
-    <state width="1237" height="218" key="GridCell.Tab.0.left" timestamp="1608384237164">
+    <state width="1237" height="218" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
+    <state width="1237" height="218" key="GridCell.Tab.0.left" timestamp="1608398048712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608384237164" />
-    <state width="1237" height="218" key="GridCell.Tab.0.right" timestamp="1608384237164">
+    <state width="1237" height="218" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
+    <state width="1237" height="218" key="GridCell.Tab.0.right" timestamp="1608398048712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608384237164" />
+    <state width="1237" height="218" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
     <state width="1237" height="193" key="GridCell.Tab.1.bottom" timestamp="1608063988815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -585,10 +587,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607777010828" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1608385629665">
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1608398039704">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608385629665" />
+    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608398039704" />
     <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

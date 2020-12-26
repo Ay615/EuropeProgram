@@ -18,9 +18,6 @@ public class MaxNumber {
         }
         else if(number2>number3)
              System.out.println("number2 is the biggest");
-
-
-
         else
            System.out.println("number3 is the biggest");
 

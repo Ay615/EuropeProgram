@@ -12,7 +12,6 @@ public class ForLoop2 {
             sum=sum+i;
             System.out.println(String.format("i=%d sum=%d",i,sum));
         }
-
         //factorial --5--> 5*4*3*2*1
         Scanner scanner=new Scanner(System.in);//new object
         long numbers=scanner.nextLong();
