@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ATMDemo {
     public static void main(String[] args) {
         //56tr
-        double accountBalance=5000;
+        double accountBalance=6000;
         int pinNumber=414415;
         Scanner input=new Scanner(System.in);
         System.out.println("Please enter your pin number");
